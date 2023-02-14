@@ -51,7 +51,11 @@ KP_liberation_medical_vehicles = [
     "uns_ch47a_medevac",
     "uns_H13_medevac_CAV",
     "uns_M577_amb",
-    "uns_uh1D_med"
+    "uns_uh1D_med",
+    "BRAF_Pantera_K2_SAR",
+    "BRAF_Worker_Health",
+    "braf_factions_cratenia_soft_truck_medical",
+    "braf_worker_health_hiaf"
 ];
 
 // Building classnames which also function as ACE medical facilities.
@@ -707,7 +711,58 @@ KPLIB_transportConfigs = [
     ["uns_m37b1", -5, [0,-1.8,0.15]],
     ["uns_nvatruck_mg", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
     ["uns_nvatruck_open", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
-    ["uns_nvatruck", -5, [0,-1.05,0.8], [0,-2.75,0.8]]
+    ["uns_nvatruck", -5, [0,-1.05,0.8], [0,-2.75,0.8]],
+    
+    // Caracal
+    ["BRAF_Caracal_1", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+    ["BRAF_Caracal_2", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+    ["BRAF_Caracal_3", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+    ["BRAF_Caracal_5", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+    ["BRAF_Caracal_5", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+    ["BRAF_Caracal_6", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+    ["BRAF_Caracal_6a", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+    ["BRAF_Caracal_7", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+    ["BRAF_Caracal_8", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+    ["BRAF_Caracal_9", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
+    
+    // Outros helis
+    ["BRAF_Fennec_Unarmed", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_Unarmed_MB", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_Unarmed_FAB", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_Resort", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_80s", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_Armed", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_Armed_MB", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_Armed_FAB", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_Cargo", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_Cargo_MB", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_Cargo_FAB", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_SAR", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_SAR_MB", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Fennec_SAR_FAB", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    
+    ["BRAF_Pantera_K2_2BAvEx", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_FFV_2BAvEx", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_3BAvEx", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_FFV_3BAvEx", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_4BAvEx", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_FFV_4BAvEx", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_80s", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_FFV_80s", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_SAR", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_Black", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_Yellow", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_Red", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_Offshore", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    ["BRAF_Pantera_K2_Silver", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
+    
+    // Truck
+    ["BRAF_Worker_Covered", -6.5, [0,0.3,0.05], [0,-1.3,0.05], [0,-2.9,0.05]],
+    ["BRAF_Worker_Health", -6.5, [0,0.3,0.05], [0,-1.3,0.05], [0,-2.9,0.05]],
+    ["BRAF_Worker_Fuel", -6.5, [0,0.3,0.05], [0,-1.3,0.05], [0,-2.9,0.05]],
+    ["BRAF_Worker_Ammo", -6.5, [0,0.3,0.05], [0,-1.3,0.05], [0,-2.9,0.05]],
+    ["BRAF_Worker_Repair", -6.5, [0,0.3,0.05], [0,-1.3,0.05], [0,-2.9,0.05]],
+    ["BRAF_Worker_Cargo", -6.5, [0,0.3,0.05], [0,-1.3,0.05], [0,-2.9,0.05]]
 ];
 
 /* Various other settings.
@@ -751,7 +806,11 @@ KPLIB_aiResupplySources = [
     "sfp_tgb40_ammo",
     "uns_M113_ENG",
     "uns_M35A2_ammo",
-    "uns_motorpool1_repair"
+    "uns_motorpool1_repair",
+    "BRAF_AM21_Ammo",
+    "BRAF_Worker_Ammo",
+    "braf_factions_cratenia_soft_truck_ammo",
+    "braf_worker_ammo_hiaf"
 ];
 
 // Everything that can resupply other vehicles.
@@ -794,7 +853,10 @@ vehicle_repair_sources = [
     "UNS_Hanger_repair",
     "uns_M113_ENG",
     "uns_M35A2_repair",
-    "uns_motorpool1_repair"
+    "uns_motorpool1_repair",
+    "BRAF_Worker_Repair",
+    "braf_factions_cratenia_soft_truck_repair",
+    "braf_worker_repair_hiaf"
 ];
 
 vehicle_rearm_sources = [
@@ -835,7 +897,11 @@ vehicle_rearm_sources = [
     "rhsusf_M977A4_AMMO_usarmy_wd",
     "sfp_tgb40_ammo",
     "uns_M113_ENG",
-    "uns_M35A2_ammo"
+    "uns_M35A2_ammo",
+    "BRAF_AM21_Ammo",
+    "BRAF_Worker_Ammo",
+    "braf_factions_cratenia_soft_truck_ammo",
+    "braf_worker_ammo_hiaf"
 ];
 
 vehicle_refuel_sources = [
@@ -877,7 +943,11 @@ vehicle_refuel_sources = [
     "sfp_tgb40_fuel",
     "uns_M113_ENG",
     "uns_M35A2_fuel",
-    "uns_M35A2_fueltanker"
+    "uns_M35A2_fueltanker",
+    "BRAF_AM21_Fuel",
+    "braf_worker_fuel_hiaf",
+    "BRAF_Worker_Fuel",
+    "braf_factions_cratenia_soft_truck_fuel"
 ];
 
 // Classnames of boats, so they can be built on water.
@@ -906,7 +976,14 @@ boats_names = [
     "uns_PBR_M10",
     "uns_pbr_mk18",
     "uns_pbr",
-    "UNS_Zodiac_W"
+    "UNS_Zodiac_W",
+    "BRAF_voadeira_01",
+    "BRAF_voadeira_02",
+    "BRAF_voadeira_03",
+    "BRAF_voadeira_04",
+    "BRAF_voadeira_05",
+    "BRAF_voadeira_06",
+    "BRAF_voadeira_07"
 ];
 
 // Classnames of artillery vehicles, which should be added to the support module
@@ -1029,7 +1106,9 @@ KP_liberation_suppMod_artyVeh = [
     "uns_M2_60mm_mortar_pvp",
     "uns_M2_60mm_mortar",
     "uns_M30_107mm_mortar",
-    "uns_Type55_mortar"
+    "uns_Type55_mortar",
+    "braf_I_m120",
+    "braf_I_m120_HIAF"
 ];
 
 // Objects which are spawned as intel objects for pickup
