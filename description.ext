@@ -217,11 +217,11 @@ class CfgDebriefing {
 };
 
 class CfgDiscordRichPresence {
-    applicationID="698133766975258664";
+    applicationID="1079157989140869161";
     defaultDetails="";
     defaultState="Preparing...";
-    defaultLargeImageKey="liberation_logo";
-    defaultLargeImageText="KP Liberation";
+    defaultLargeImageKey="braf";
+    defaultLargeImageText="BRAF";
     defaultSmallImageKey="arma3_logo";
     defaultSmallImageText="Arma 3";
     useTimeElapsed=1;
